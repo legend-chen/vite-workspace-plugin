@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "build": "vite build --config vite.config.js",
+    "dev": "vite --config vite.config.js"
+  },
+  "dependencies": {
+    "vite": "^2.8.4"
+  }
+}
