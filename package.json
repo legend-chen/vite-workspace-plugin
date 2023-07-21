@@ -4,6 +4,7 @@
     "dev": "vite --config vite.config.js"
   },
   "dependencies": {
-    "vite": "^2.8.4"
+    "mrmime": "^1.0.1",
+    "vite": "^4.4.6"
   }
 }

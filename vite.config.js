@@ -1,11 +1,12 @@
 import {defineConfig} from 'vite'
 import {resolve} from "path";
-import ViteRedirect404Plugin from "./vite.redirect";
+import ViteWorkspacePlugin from "./ViteWorkspace";
 
 export default defineConfig({
+    base: "./",
     server: {
         open: './src/index.html',
-        host: "0.0.0.0",
+        host: true,
         port: "8080"
     },
     resolve: {
@@ -13,5 +14,5 @@ export default defineConfig({
             "@": resolve(__dirname, "./src")
         },
     },
-    plugins: [ViteRedirect404Plugin()]
+    plugins: [ViteWorkspacePlugin()]
 });
