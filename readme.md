@@ -1,5 +1,5 @@
-## Vite Redirect 404 Plugin
-The plugin helps dev server to render a vite application that functions as a single-spa application.  
+## Vite Workpace Plugin
+The plugin provides your vite projects with a development server that displays a file list of the workspace's folders.
 
 ## How to do
-In a short word， it redirects 404 error to app index and makes the router working correctly.
+In a short word，it replaces the web middleware to generate the directory list.
